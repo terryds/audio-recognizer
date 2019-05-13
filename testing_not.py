@@ -3,7 +3,7 @@
 import numpy as np
 import math
 import wave
-import os
+import glob, os
 import struct
 
 def note_detect(audio_file):
@@ -69,8 +69,43 @@ def note_detect(audio_file):
 
 if __name__ == "__main__":
 
-    path = os.getcwd()
-    file_name = path + "\\1_2.wav"
-    audio_file = wave.open(file_name)
-    Detected_Note = note_detect(audio_file)
-    print("\n\tDetected Note = " + str(Detected_Note))
+    true_cetok = 0
+    false_cetok = 0
+
+    basepath = os.getcwd()
+    print("====UJI CETOK====")
+    dir_name = basepath + "\\test_files\\cetok\\"
+    os.chdir(dir_name)
+    for file_name in glob.glob("*.wav"):
+        print('File uji: %s' % (file_name))
+        audio_file = wave.open(file_name)
+        Detected_Note = note_detect(audio_file)
+        print("Detected Note = " + str(Detected_Note))
+        if file_name.split('.')[0].split('_')[1].lower() == str(Detected_Note).lower():
+            true_cetok = true_cetok + 1;
+            print("BENAR DETEKSI")
+        else:
+            false_cetok = false_cetok + 1;
+            print("SALAH DETEKSI")
+
+    print('AKURASI CETOK: %s' % (true_cetok/(true_cetok+false_cetok)))
+
+
+    print("====UJI KRULUNG====")
+    true_krulung = 0
+    false_krulung = 0
+    dir_name = basepath + "\\test_files\\krulung\\"
+    os.chdir(dir_name)
+    for file_name in glob.glob("*.wav"):
+        print('File uji: %s' % (file_name))
+        audio_file = wave.open(file_name)
+        Detected_Note = note_detect(audio_file)
+        print("Detected Note = " + str(Detected_Note))
+        if file_name.split('.')[0].split('_')[1].lower() == str(Detected_Note).lower():
+            true_krulung = true_krulung + 1;
+            print("BENAR DETEKSI")
+        else:
+            false_krulung = false_krulung + 1;
+            print("SALAH DETEKSI")
+
+    print('AKURASI KRULUNG: %s' % (true_krulung/(true_krulung+false_krulung)))

@@ -1,0 +1,202 @@
+====UJI CETOK====
+File uji: 10_B5_1.wav
+Detected Note = B5
+BENAR DETEKSI
+File uji: 10_B5_2.wav
+Detected Note = B5
+BENAR DETEKSI
+File uji: 10_B5_3.wav
+Detected Note = B5
+BENAR DETEKSI
+File uji: 11_C6.wav
+Detected Note = C6
+BENAR DETEKSI
+File uji: 11_C6_2.wav
+Detected Note = C6
+BENAR DETEKSI
+File uji: 11_C6_3.wav
+Detected Note = C6
+BENAR DETEKSI
+File uji: 1_G4.wav
+Detected Note = G4
+BENAR DETEKSI
+File uji: 1_G4_2.wav
+Detected Note = G4
+BENAR DETEKSI
+File uji: 1_G4_3.wav
+Detected Note = G4
+BENAR DETEKSI
+File uji: 2_A4.wav
+Detected Note = A4
+BENAR DETEKSI
+File uji: 2_A4_2.wav
+Detected Note = A4
+BENAR DETEKSI
+File uji: 2_A4_3.wav
+Detected Note = A5
+SALAH DETEKSI
+File uji: 3_B4.wav
+Detected Note = B4
+BENAR DETEKSI
+File uji: 3_B4_2.wav
+Detected Note = B4
+BENAR DETEKSI
+File uji: 3_B4_3.wav
+Detected Note = B4
+BENAR DETEKSI
+File uji: 4_C5.wav
+Detected Note = C6
+SALAH DETEKSI
+File uji: 4_C5_2.wav
+Detected Note = C6
+SALAH DETEKSI
+File uji: 4_C5_3.wav
+Detected Note = C6
+SALAH DETEKSI
+File uji: 5_D5.wav
+Detected Note = D5
+BENAR DETEKSI
+File uji: 5_D5_2.wav
+Detected Note = D5
+BENAR DETEKSI
+File uji: 5_D5_3.wav
+Detected Note = D5
+BENAR DETEKSI
+File uji: 6_E5.wav
+Detected Note = E6
+SALAH DETEKSI
+File uji: 6_E5_2.wav
+Detected Note = E6
+SALAH DETEKSI
+File uji: 6_E5_3.wav
+Detected Note = E5
+BENAR DETEKSI
+File uji: 7_F5.wav
+Detected Note = F5
+BENAR DETEKSI
+File uji: 7_F5_2.wav
+Detected Note = F5
+BENAR DETEKSI
+File uji: 7_F5_3.wav
+Detected Note = F5
+BENAR DETEKSI
+File uji: 8_G5.wav
+Detected Note = G5
+BENAR DETEKSI
+File uji: 8_G5_2.wav
+Detected Note = G5
+BENAR DETEKSI
+File uji: 8_G5_3.wav
+Detected Note = G5
+BENAR DETEKSI
+File uji: 9_A5_1.wav
+Detected Note = A5
+BENAR DETEKSI
+File uji: 9_A5_2.wav
+Detected Note = A5
+BENAR DETEKSI
+File uji: 9_A5_3.wav
+Detected Note = A5
+BENAR DETEKSI
+AKURASI CETOK: 0.8181818181818182
+====UJI KRULUNG====
+File uji: 10_B5.wav
+Detected Note = B5
+BENAR DETEKSI
+File uji: 10_B5_2.wav
+Detected Note = B5
+BENAR DETEKSI
+File uji: 10_B5_3.wav
+Detected Note = B5
+BENAR DETEKSI
+File uji: 11_C6.wav
+Detected Note = C6
+BENAR DETEKSI
+File uji: 11_C6_2.wav
+Detected Note = C6
+BENAR DETEKSI
+File uji: 11_C6_3.wav
+Detected Note = C6
+BENAR DETEKSI
+File uji: 1_G4.wav
+Detected Note = G4
+BENAR DETEKSI
+File uji: 1_G4_2.wav
+Detected Note = G4
+BENAR DETEKSI
+File uji: 1_G4_3.wav
+Detected Note = G4
+BENAR DETEKSI
+File uji: 2_A4.wav
+Detected Note = A4
+BENAR DETEKSI
+File uji: 2_A4_2.wav
+Detected Note = A4
+BENAR DETEKSI
+File uji: 2_A4_3.wav
+Detected Note = A4
+BENAR DETEKSI
+File uji: 3_B4.wav
+Detected Note = B4
+BENAR DETEKSI
+File uji: 3_B4_2.wav
+Detected Note = B4
+BENAR DETEKSI
+File uji: 3_B4_3.wav
+Detected Note = B4
+BENAR DETEKSI
+File uji: 4_C5.wav
+Detected Note = C6
+SALAH DETEKSI
+File uji: 4_C5_2.wav
+Detected Note = C6
+SALAH DETEKSI
+File uji: 4_C5_3.wav
+Detected Note = C6
+SALAH DETEKSI
+File uji: 5_D5.wav
+Detected Note = D5
+BENAR DETEKSI
+File uji: 5_D5_2.wav
+Detected Note = D5
+BENAR DETEKSI
+File uji: 5_D5_3.wav
+Detected Note = D5
+BENAR DETEKSI
+File uji: 6_E5.wav
+Detected Note = E5
+BENAR DETEKSI
+File uji: 6_E5_2.wav
+Detected Note = E6
+SALAH DETEKSI
+File uji: 6_E5_3.wav
+Detected Note = E5
+BENAR DETEKSI
+File uji: 7_F5.wav
+Detected Note = F5
+BENAR DETEKSI
+File uji: 7_F5_2.wav
+Detected Note = F5
+BENAR DETEKSI
+File uji: 7_F5_3.wav
+Detected Note = F5
+BENAR DETEKSI
+File uji: 8_G5.wav
+Detected Note = G4
+SALAH DETEKSI
+File uji: 8_G5_2.wav
+Detected Note = G5
+BENAR DETEKSI
+File uji: 8_G5_3.wav
+Detected Note = G5
+BENAR DETEKSI
+File uji: 9_A5.wav
+Detected Note = A5
+BENAR DETEKSI
+File uji: 9_A5_2.wav
+Detected Note = A5
+BENAR DETEKSI
+File uji: 9_A5_3.wav
+Detected Note = A5
+BENAR DETEKSI
+AKURASI KRULUNG: 0.8484848484848485
