@@ -8,6 +8,8 @@ import struct
 
 def note_detect(audio_file):
 
+    mode = 2;
+
     #-------------------------------------------
     #here we are just storing our sound file as a numpy array
     #you can also use any other method to store the file as an np array
@@ -17,7 +19,11 @@ def note_detect(audio_file):
     
     for i in range(file_length) : 
         data=audio_file.readframes(1)
-        data=struct.unpack("<hh",data)
+        try:
+            data=struct.unpack("<hh",data)
+        except:
+            mode = 1;
+            data=struct.unpack("<h",data)
         sound[i] = int(data[0])
     
     sound=np.divide(sound,float(2**15)) #scaling it to 0 - 1
@@ -40,7 +46,7 @@ def note_detect(audio_file):
         if(i_begin!=-1 and fourier[i]<threshold):
             break
     i_end = i
-    imax = np.argmax(fourier[0:i_end+100]) * 2
+    imax = np.argmax(fourier[0:i_end+100]) * mode
     
     freq=(imax*f_s)/(file_length*counter) #formula to convert index into sound frequency
 
@@ -73,10 +79,11 @@ if __name__ == "__main__":
     false_cetok = 0
 
     basepath = os.getcwd()
-    print("====UJI CETOK====")
-    dir_name = basepath + "\\test_files\\cetok\\"
+    print("====UJI HP ANGKLUNG CETOK====")
+    dir_name = basepath + "\\test_files\\angklung_hp_cetok\\"
     os.chdir(dir_name)
     for file_name in glob.glob("*.wav"):
+        print("-----------------------")
         print('File uji: %s' % (file_name))
         audio_file = wave.open(file_name)
         Detected_Note = note_detect(audio_file)
@@ -87,16 +94,21 @@ if __name__ == "__main__":
         else:
             false_cetok = false_cetok + 1;
             print("SALAH DETEKSI")
+        print("-----------------------")
 
-    print('AKURASI CETOK: %s' % (true_cetok/(true_cetok+false_cetok)))
+    print("=-=-=-=-=-=-KESIMPULAN=-=-=-=-=-=-=-=")
+    print('JUMLAH BENAR HP ANGKLUNG CETOK: %s' % (true_cetok))
+    print('JUMLAH SALAH HP ANGKLUNG CETOK: %s' % (false_cetok))
+    print('AKURASI HP ANGKLUNG CETOK: %s' % (true_cetok/(true_cetok+false_cetok)))
+    print("=-=-=-=-=-==-=-=-=-=-=-==-=-=-=-=-=-=")
 
-
-    print("====UJI KRULUNG====")
+    print("====UJI HP ANGKLUNG KRULUNG====")
     true_krulung = 0
     false_krulung = 0
-    dir_name = basepath + "\\test_files\\krulung\\"
+    dir_name = basepath + "\\test_files\\angklung_hp_krulung\\"
     os.chdir(dir_name)
     for file_name in glob.glob("*.wav"):
+        print("-----------------------")
         print('File uji: %s' % (file_name))
         audio_file = wave.open(file_name)
         Detected_Note = note_detect(audio_file)
@@ -107,5 +119,86 @@ if __name__ == "__main__":
         else:
             false_krulung = false_krulung + 1;
             print("SALAH DETEKSI")
+        print("-----------------------")
 
-    print('AKURASI KRULUNG: %s' % (true_krulung/(true_krulung+false_krulung)))
+    print("=-=-=-=-=-=-KESIMPULAN=-=-=-=-=-=-=-=")
+    print('JUMLAH BENAR HP ANGKLUNG KRULUNG: %s' % (true_krulung))
+    print('JUMLAH SALAH HP ANGKLUNG KRULUNG: %s' % (false_krulung))
+    print('AKURASI HP ANGKLUNG KRULUNG: %s' % (true_krulung/(true_krulung+false_krulung)))
+    print("=-=-=-=-=-==-=-=-=-=-=-==-=-=-=-=-=-=")
+
+
+    print("====UJI GITAR====")
+    true_gitar = 0
+    false_gitar = 0
+    dir_name = basepath + "\\test_files\\Gitar\\"
+    os.chdir(dir_name)
+    for file_name in glob.glob("*.wav"):
+        print("-----------------------")
+        print('File uji: %s' % (file_name))
+        audio_file = wave.open(file_name)
+        Detected_Note = note_detect(audio_file)
+        print("Detected Note = " + str(Detected_Note))
+        if file_name.split('.')[0].split('_')[1].lower() == str(Detected_Note).lower():
+            true_gitar = true_gitar + 1;
+            print("BENAR DETEKSI")
+        else:
+            false_gitar = false_gitar + 1;
+            print("SALAH DETEKSI")
+        print("-----------------------")
+
+    print("=-=-=-=-=-=-KESIMPULAN=-=-=-=-=-=-=-=")
+    print('JUMLAH BENAR gitar: %s' % (true_gitar))
+    print('JUMLAH SALAH gitar: %s' % (false_gitar))
+    print('AKURASI gitar: %s' % (true_gitar/(true_gitar+false_gitar)))
+    print("=-=-=-=-=-==-=-=-=-=-=-==-=-=-=-=-=-=")
+
+    print("====UJI Piano====")
+    true_Piano = 0
+    false_Piano = 0
+    dir_name = basepath + "\\test_files\\Piano\\"
+    os.chdir(dir_name)
+    for file_name in glob.glob("*.wav"):
+        print("-----------------------")
+        print('File uji: %s' % (file_name))
+        audio_file = wave.open(file_name)
+        Detected_Note = note_detect(audio_file)
+        print("Detected Note = " + str(Detected_Note))
+        if file_name.split('.')[0].split('_')[1].lower() == str(Detected_Note).lower():
+            true_Piano = true_Piano + 1;
+            print("BENAR DETEKSI")
+        else:
+            false_Piano = false_Piano + 1;
+            print("SALAH DETEKSI")
+        print("-----------------------")
+
+    print("=-=-=-=-=-=-KESIMPULAN=-=-=-=-=-=-=-=")
+    print('JUMLAH BENAR Piano: %s' % (true_Piano))
+    print('JUMLAH SALAH Piano: %s' % (false_Piano))
+    print('AKURASI Piano: %s' % (true_Piano/(true_Piano+false_Piano)))
+    print("=-=-=-=-=-==-=-=-=-=-=-==-=-=-=-=-=-=")
+
+    print("====UJI Suling====")
+    true_Suling = 0
+    false_Suling = 0
+    dir_name = basepath + "\\test_files\\Suling\\"
+    os.chdir(dir_name)
+    for file_name in glob.glob("*.wav"):
+        print("-----------------------")
+        print('File uji: %s' % (file_name))
+        audio_file = wave.open(file_name)
+        Detected_Note = note_detect(audio_file)
+        print("Detected Note = " + str(Detected_Note))
+        if file_name.split('.')[0].split('_')[1].lower() == str(Detected_Note).lower():
+            true_Suling = true_Suling + 1;
+            print("BENAR DETEKSI")
+        else:
+            false_Suling = false_Suling + 1;
+            print("SALAH DETEKSI")
+        print("-----------------------")
+
+    print("=-=-=-=-=-=-KESIMPULAN=-=-=-=-=-=-=-=")
+    print('JUMLAH BENAR Suling: %s' % (true_Suling))
+    print('JUMLAH SALAH Suling: %s' % (false_Suling))
+    print('AKURASI Suling: %s' % (true_Suling/(true_Suling+false_Suling)))
+    print("=-=-=-=-=-==-=-=-=-=-=-==-=-=-=-=-=-=")

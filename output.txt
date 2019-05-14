@@ -1,202 +1,465 @@
-====UJI CETOK====
+====UJI HP ANGKLUNG CETOK====
+-----------------------
 File uji: 10_B5_1.wav
 Detected Note = B5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 10_B5_2.wav
 Detected Note = B5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 10_B5_3.wav
 Detected Note = B5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 11_C6.wav
 Detected Note = C6
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 11_C6_2.wav
 Detected Note = C6
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 11_C6_3.wav
 Detected Note = C6
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 1_G4.wav
 Detected Note = G4
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 1_G4_2.wav
 Detected Note = G4
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 1_G4_3.wav
 Detected Note = G4
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 2_A4.wav
 Detected Note = A4
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 2_A4_2.wav
 Detected Note = A4
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 2_A4_3.wav
 Detected Note = A5
 SALAH DETEKSI
+-----------------------
+-----------------------
 File uji: 3_B4.wav
 Detected Note = B4
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 3_B4_2.wav
 Detected Note = B4
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 3_B4_3.wav
 Detected Note = B4
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 4_C5.wav
 Detected Note = C6
 SALAH DETEKSI
+-----------------------
+-----------------------
 File uji: 4_C5_2.wav
 Detected Note = C6
 SALAH DETEKSI
+-----------------------
+-----------------------
 File uji: 4_C5_3.wav
 Detected Note = C6
 SALAH DETEKSI
+-----------------------
+-----------------------
 File uji: 5_D5.wav
 Detected Note = D5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 5_D5_2.wav
 Detected Note = D5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 5_D5_3.wav
 Detected Note = D5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 6_E5.wav
 Detected Note = E6
 SALAH DETEKSI
+-----------------------
+-----------------------
 File uji: 6_E5_2.wav
 Detected Note = E6
 SALAH DETEKSI
+-----------------------
+-----------------------
 File uji: 6_E5_3.wav
 Detected Note = E5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 7_F5.wav
 Detected Note = F5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 7_F5_2.wav
 Detected Note = F5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 7_F5_3.wav
 Detected Note = F5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 8_G5.wav
 Detected Note = G5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 8_G5_2.wav
 Detected Note = G5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 8_G5_3.wav
 Detected Note = G5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 9_A5_1.wav
 Detected Note = A5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 9_A5_2.wav
 Detected Note = A5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 9_A5_3.wav
 Detected Note = A5
 BENAR DETEKSI
-AKURASI CETOK: 0.8181818181818182
-====UJI KRULUNG====
+-----------------------
+=-=-=-=-=-=-KESIMPULAN=-=-=-=-=-=-=-=
+JUMLAH BENAR HP ANGKLUNG CETOK: 27
+JUMLAH SALAH HP ANGKLUNG CETOK: 6
+AKURASI HP ANGKLUNG CETOK: 0.8181818181818182
+=-=-=-=-=-==-=-=-=-=-=-==-=-=-=-=-=-=
+====UJI HP ANGKLUNG KRULUNG====
+-----------------------
 File uji: 10_B5.wav
 Detected Note = B5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 10_B5_2.wav
 Detected Note = B5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 10_B5_3.wav
 Detected Note = B5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 11_C6.wav
 Detected Note = C6
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 11_C6_2.wav
 Detected Note = C6
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 11_C6_3.wav
 Detected Note = C6
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 1_G4.wav
 Detected Note = G4
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 1_G4_2.wav
 Detected Note = G4
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 1_G4_3.wav
 Detected Note = G4
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 2_A4.wav
 Detected Note = A4
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 2_A4_2.wav
 Detected Note = A4
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 2_A4_3.wav
 Detected Note = A4
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 3_B4.wav
 Detected Note = B4
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 3_B4_2.wav
 Detected Note = B4
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 3_B4_3.wav
 Detected Note = B4
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 4_C5.wav
 Detected Note = C6
 SALAH DETEKSI
+-----------------------
+-----------------------
 File uji: 4_C5_2.wav
 Detected Note = C6
 SALAH DETEKSI
+-----------------------
+-----------------------
 File uji: 4_C5_3.wav
 Detected Note = C6
 SALAH DETEKSI
+-----------------------
+-----------------------
 File uji: 5_D5.wav
 Detected Note = D5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 5_D5_2.wav
 Detected Note = D5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 5_D5_3.wav
 Detected Note = D5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 6_E5.wav
 Detected Note = E5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 6_E5_2.wav
 Detected Note = E6
 SALAH DETEKSI
+-----------------------
+-----------------------
 File uji: 6_E5_3.wav
 Detected Note = E5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 7_F5.wav
 Detected Note = F5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 7_F5_2.wav
 Detected Note = F5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 7_F5_3.wav
 Detected Note = F5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 8_G5.wav
 Detected Note = G4
 SALAH DETEKSI
+-----------------------
+-----------------------
 File uji: 8_G5_2.wav
 Detected Note = G5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 8_G5_3.wav
 Detected Note = G5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 9_A5.wav
 Detected Note = A5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 9_A5_2.wav
 Detected Note = A5
 BENAR DETEKSI
+-----------------------
+-----------------------
 File uji: 9_A5_3.wav
 Detected Note = A5
 BENAR DETEKSI
-AKURASI KRULUNG: 0.8484848484848485
+-----------------------
+=-=-=-=-=-=-KESIMPULAN=-=-=-=-=-=-=-=
+JUMLAH BENAR HP ANGKLUNG KRULUNG: 28
+JUMLAH SALAH HP ANGKLUNG KRULUNG: 5
+AKURASI HP ANGKLUNG KRULUNG: 0.8484848484848485
+=-=-=-=-=-==-=-=-=-=-=-==-=-=-=-=-=-=
+====UJI GITAR====
+-----------------------
+File uji: Gitar_A3_HP.wav
+Detected Note = E5
+SALAH DETEKSI
+-----------------------
+-----------------------
+File uji: Gitar_B3_HP.wav
+Detected Note = F5#
+SALAH DETEKSI
+-----------------------
+-----------------------
+File uji: Gitar_C3_HP.wav
+Detected Note = G3
+SALAH DETEKSI
+-----------------------
+-----------------------
+File uji: Gitar_D3_HP.wav
+Detected Note = A4
+SALAH DETEKSI
+-----------------------
+=-=-=-=-=-=-KESIMPULAN=-=-=-=-=-=-=-=
+JUMLAH BENAR gitar: 0
+JUMLAH SALAH gitar: 4
+AKURASI gitar: 0.0
+=-=-=-=-=-==-=-=-=-=-=-==-=-=-=-=-=-=
+====UJI Piano====
+-----------------------
+File uji: Piano_A3_03.wav
+Detected Note = E4
+SALAH DETEKSI
+-----------------------
+-----------------------
+File uji: Piano_A4_03.wav
+Detected Note = A4
+BENAR DETEKSI
+-----------------------
+-----------------------
+File uji: Piano_B3_03.wav
+Detected Note = F4#
+SALAH DETEKSI
+-----------------------
+-----------------------
+File uji: Piano_B4_03.wav
+Detected Note = B4
+BENAR DETEKSI
+-----------------------
+-----------------------
+File uji: Piano_C3_03 HP.wav
+Detected Note = E4
+SALAH DETEKSI
+-----------------------
+-----------------------
+File uji: Piano_C4_03.wav
+Detected Note = G4
+SALAH DETEKSI
+-----------------------
+-----------------------
+File uji: Piano_C5_03.wav
+Detected Note = C5
+BENAR DETEKSI
+-----------------------
+-----------------------
+File uji: Piano_F3_HP.wav
+Detected Note = F4
+SALAH DETEKSI
+-----------------------
+-----------------------
+File uji: Piano_G3_03.wav
+Detected Note = G4
+SALAH DETEKSI
+-----------------------
+-----------------------
+File uji: Piano_G3_HP.wav
+Detected Note = D4
+SALAH DETEKSI
+-----------------------
+=-=-=-=-=-=-KESIMPULAN=-=-=-=-=-=-=-=
+JUMLAH BENAR Piano: 3
+JUMLAH SALAH Piano: 7
+AKURASI Piano: 0.3
+=-=-=-=-=-==-=-=-=-=-=-==-=-=-=-=-=-=
+====UJI Suling====
+-----------------------
+File uji: Suling_A4_Tiup_A_3.wav
+Detected Note = A4
+BENAR DETEKSI
+-----------------------
+-----------------------
+File uji: Suling_A5.wav
+Detected Note = A5#
+SALAH DETEKSI
+-----------------------
+-----------------------
+File uji: Suling_B4.wav
+Detected Note = B4
+BENAR DETEKSI
+-----------------------
+-----------------------
+File uji: Suling_B5.wav
+Detected Note = B5
+BENAR DETEKSI
+-----------------------
+-----------------------
+File uji: Suling_C4.wav
+Detected Note = C5
+SALAH DETEKSI
+-----------------------
+-----------------------
+File uji: Suling_C5.wav
+Detected Note = C6
+SALAH DETEKSI
+-----------------------
+-----------------------
+File uji: Suling_D5.wav
+Detected Note = D6
+SALAH DETEKSI
+-----------------------
+=-=-=-=-=-=-KESIMPULAN=-=-=-=-=-=-=-=
+JUMLAH BENAR Suling: 3
+JUMLAH SALAH Suling: 4
+AKURASI Suling: 0.42857142857142855
+=-=-=-=-=-==-=-=-=-=-=-==-=-=-=-=-=-=
