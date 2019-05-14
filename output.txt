@@ -342,29 +342,29 @@ AKURASI HP ANGKLUNG KRULUNG: 0.8484848484848485
 =-=-=-=-=-==-=-=-=-=-=-==-=-=-=-=-=-=
 ====UJI GITAR====
 -----------------------
-File uji: Gitar_A3_HP.wav
+File uji: Gitar_A4_HP.wav
+Detected Note = A4
+BENAR DETEKSI
+-----------------------
+-----------------------
+File uji: Gitar_E5_HP.wav
 Detected Note = E5
-SALAH DETEKSI
+BENAR DETEKSI
 -----------------------
 -----------------------
-File uji: Gitar_B3_HP.wav
+File uji: Gitar_F#5_HP.wav
 Detected Note = F5#
 SALAH DETEKSI
 -----------------------
 -----------------------
-File uji: Gitar_C3_HP.wav
+File uji: Gitar_G4_HP.wav
 Detected Note = G3
 SALAH DETEKSI
 -----------------------
------------------------
-File uji: Gitar_D3_HP.wav
-Detected Note = A4
-SALAH DETEKSI
------------------------
 =-=-=-=-=-=-KESIMPULAN=-=-=-=-=-=-=-=
-JUMLAH BENAR gitar: 0
-JUMLAH SALAH gitar: 4
-AKURASI gitar: 0.0
+JUMLAH BENAR gitar: 2
+JUMLAH SALAH gitar: 2
+AKURASI gitar: 0.5
 =-=-=-=-=-==-=-=-=-=-=-==-=-=-=-=-=-=
 ====UJI Piano====
 -----------------------
@@ -388,11 +388,6 @@ Detected Note = B4
 BENAR DETEKSI
 -----------------------
 -----------------------
-File uji: Piano_C3_03 HP.wav
-Detected Note = E4
-SALAH DETEKSI
------------------------
------------------------
 File uji: Piano_C4_03.wav
 Detected Note = G4
 SALAH DETEKSI
@@ -403,24 +398,14 @@ Detected Note = C5
 BENAR DETEKSI
 -----------------------
 -----------------------
-File uji: Piano_F3_HP.wav
-Detected Note = F4
-SALAH DETEKSI
------------------------
------------------------
-File uji: Piano_G3_03.wav
+File uji: Piano_G4_03.wav
 Detected Note = G4
-SALAH DETEKSI
------------------------
------------------------
-File uji: Piano_G3_HP.wav
-Detected Note = D4
-SALAH DETEKSI
+BENAR DETEKSI
 -----------------------
 =-=-=-=-=-=-KESIMPULAN=-=-=-=-=-=-=-=
-JUMLAH BENAR Piano: 3
-JUMLAH SALAH Piano: 7
-AKURASI Piano: 0.3
+JUMLAH BENAR Piano: 4
+JUMLAH SALAH Piano: 3
+AKURASI Piano: 0.5714285714285714
 =-=-=-=-=-==-=-=-=-=-=-==-=-=-=-=-=-=
 ====UJI Suling====
 -----------------------
